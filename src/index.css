@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1d2628;
+  background-color: #f6f3ee;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Quicksand, sans-serif;
+  background:
+    radial-gradient(circle at 10% 15%, rgba(185, 215, 232, 0.2), transparent 40%),
+    radial-gradient(circle at 88% 82%, rgba(200, 193, 238, 0.2), transparent 45%),
+    #f6f3ee;
+  color: #1d2628;
+}
+
+#root {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(108, 143, 135, 0.3);
+}
